@@ -359,9 +359,169 @@ export const intel = {
             "id": "TA0039",
             "url": "https://attack.mitre.org/tactics/TA0039",
             "deprecated": true
+        },
+        {
+            "stixId": "x-mitre-tactic--b03163eb-7e81-4fed-9819-641bf7c99507",
+            "name": "Plan Strategy",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA01",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA01.md",
+            "deprecated": false
+        },
+        {
+            "stixId": "x-mitre-tactic--431af018-56ae-406c-9648-4857f074fffc",
+            "name": "Plan Objectives",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA02",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA02.md",
+            "deprecated": false
+        },
+        {
+            "stixId": "x-mitre-tactic--acaf8903-418f-425a-93dc-8e1bfb626876",
+            "name": "Microtarget",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA05",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA05.md",
+            "deprecated": false
+        },
+        {
+            "stixId": "x-mitre-tactic--82039146-59a3-4353-b328-a422da34db6b",
+            "name": "Develop Content",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA06",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA06.md",
+            "deprecated": false
+        },
+        {
+            "stixId": "x-mitre-tactic--3c73d309-b066-44f9-ad81-866a64e438c9",
+            "name": "Select Channels and Affordances",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA07",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA07.md",
+            "deprecated": false
+        },
+        {
+            "stixId": "x-mitre-tactic--8a96b3ce-332e-4685-8ec6-5140eef192a4",
+            "name": "Conduct Pump Priming",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA08",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA08.md",
+            "deprecated": false
+        },
+        {
+            "stixId": "x-mitre-tactic--4a9c3d11-801b-4ee9-a5bc-b5bc042a92f9",
+            "name": "Deliver Content",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA09",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA09.md",
+            "deprecated": false
+        },
+        {
+            "stixId": "x-mitre-tactic--3fa1ad18-ca09-40ed-be45-f210b9c07e0b",
+            "name": "Drive Offline Activity",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA10",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA10.md",
+            "deprecated": false
+        },
+        {
+            "stixId": "x-mitre-tactic--dffcf337-d4d9-449b-aa9c-6a97a891c5a9",
+            "name": "Persist in the Information Environment",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA11",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA11.md",
+            "deprecated": false
+        },
+        {
+            "stixId": "x-mitre-tactic--19886784-0e07-474f-803c-30c443e65347",
+            "name": "Assess Effectiveness",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA12",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA12.md",
+            "deprecated": false
+        },
+        {
+            "stixId": "x-mitre-tactic--1e005da9-56cc-4802-af90-b267d17a1ad1",
+            "name": "Target Audience Analysis",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA13",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA13.md",
+            "deprecated": false
+        },
+        {
+            "stixId": "x-mitre-tactic--fd1e7dd3-63d0-4040-808e-3e61b9ddca86",
+            "name": "Develop Narratives",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA14",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA14.md",
+            "deprecated": false
+        },
+        {
+            "stixId": "x-mitre-tactic--c4eaa2a6-7e86-4eb3-beaa-981a96d4724a",
+            "name": "Establish Social Assets",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA15",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA15.md",
+            "deprecated": false
+        },
+        {
+            "stixId": "x-mitre-tactic--8f32bafc-edb2-4d3c-9b7e-e42a9147123b",
+            "name": "Establish Legitimacy",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA16",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA16.md",
+            "deprecated": false
+        },
+        {
+            "stixId": "x-mitre-tactic--c198a2b6-0c46-4b69-866a-1764782c2e07",
+            "name": "Maximise Exposure",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA17",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA17.md",
+            "deprecated": false
+        },
+        {
+            "stixId": "x-mitre-tactic--f0505ac9-8979-49e4-a87c-d1109536a7db",
+            "name": "Drive Online Harms",
+            "type": "tactic",
+            "matrix": "DISARM Red",
+            "id": "TA18",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/tactics/TA18.md",
+            "deprecated": false
         }
     ],
     "tactic_recs": [
+        "TA01 (DISARM / Plan Strategy)",
+        "TA02 (DISARM / Plan Objectives)",
+        "TA13 (DISARM / Target Audience Analysis)",
+        "TA14 (DISARM / Develop Narratives)",
+        "TA06 (DISARM / Develop Content)",
+        "TA15 (DISARM / Establish Social Assets)",
+        "TA16 (DISARM / Establish Legitimacy)",
+        "TA05 (DISARM / Microtarget)",
+        "TA07 (DISARM / Select Channels and Affordances)",
+        "TA08 (DISARM / Conduct Pump Priming)",
+        "TA09 (DISARM / Deliver Content)",
+        "TA17 (DISARM / Maximize Exposure)",
+        "TA18 (DISARM / Drive Online Harms)",
+        "TA10 (DISARM / Drive Offline Activity)",
+        "TA11 (DISARM / Persist in the Information Environment)",
+        "TA12 (DISARM / Assess Effectiveness)",
         "TA0001 (Enterprise / Initial Access)",
         "TA0002 (Enterprise / Execution)",
         "TA0003 (Enterprise / Persistence)",
@@ -371,7 +531,7 @@ export const intel = {
         "TA0007 (Enterprise / Discovery)",
         "TA0008 (Enterprise / Lateral Movement)",
         "TA0009 (Enterprise / Collection)",
-        "TA0010 (Enterprise / Exfiltration)",
+        "TA0010 (Enterprise / Exfiltration)", 
         "TA0011 (Enterprise / Command and Control)",
         "TA0027 (Mobile / Initial Access)",
         "TA0028 (Mobile / Persistence)",
@@ -9961,9 +10121,19 @@ export const intel = {
             "id": "T1508",
             "url": "https://attack.mitre.org/techniques/T1508",
             "deprecated": true
+        },
+        {
+            "stixId": "red-disarm--d766ad06-ec4d-402e-b38f-f09cddfacabc",
+            "name": "Determine Target Audiences",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0073",
+            "url": "https://disarmframework.herokuapp.com/technique/67/view",
+            "deprecated": false
         }
     ],
     "technique_recs": [
+        "T0073 (Determine Target Audiences)",
         "T0800 (Activate Firmware Update Mode)",
         "T0801 (Monitor Process State)",
         "T0802 (Automated Collection)",
