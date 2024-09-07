@@ -16,10 +16,27 @@ const SHOW_CONTROL_POINTS = false; // for debugging, set to true
 
 // Map tactic IDs to the CSS class that Navigator emits.
 const TACTIC_LOOKUP = {
+    // Red DISARM
+    "TA01": "plan strategy",
+    "TA02": "plan objectives",
+    "TA13": "target audience analysis",
+    "TA14": "develop narratives",
+    "TA06": "develop content",
+    "TA16": "establish legitimacy",
+    "TA05": "microtarget",
+    "TA07": "select channels and affordances",
+    "TA08": "conduct pump priming",
+    "TA09": "deliver content",
+    "TA17": "maximize exposure",
+    "TA18": "drive online harms",
+    "TA10": "drive offline activity",
+    "TA11": "persist in the information environment",
+    "TA12": "assess effectiveness",
+    "TA15": "establish social assets",
     // Enterprise
     "TA0043": "reconnaissance",
     "TA0042": "resource-development",
-    "TA0001": "initial-access",
+    "TA0001": "initial access",
     "TA0002": "execution",
     "TA0003": "persistence",
     "TA0004": "privilege-sscalation",
