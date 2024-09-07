@@ -98,7 +98,7 @@ class AttackFlowProcessor extends DiagramProcessor {
             let cmd = new GroupCommand();
 
             // Resolve tactic ID
-            let tacticId = /TA[0-9]{4}/i.exec(value);
+            let tacticId = /TA[0-9]{2,4}/i.exec(value);
             if(tacticId === null) {
                 throw new Error("Tactic ID could not be resolved from text.");
             }
