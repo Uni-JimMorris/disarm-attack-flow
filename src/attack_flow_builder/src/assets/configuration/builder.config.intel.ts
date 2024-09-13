@@ -10123,17 +10123,2320 @@ export const intel = {
             "deprecated": true
         },
         {
-            "stixId": "red-disarm--d766ad06-ec4d-402e-b38f-f09cddfacabc",
+            "stixId": "attack-pattern--6faf71ca-1e32-4134-8a7c-79b25f7f3615",
             "name": "Determine Target Audiences",
             "type": "technique",
             "matrix": "DISARM Red",
             "id": "T0073",
-            "url": "https://disarmframework.herokuapp.com/technique/67/view",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0073.md",
             "deprecated": false
+        },
+        {
+            "stixId": "attack-pattern--bef6392b-f5a2-4a40-8b53-9a9377bea159",
+            "name": "Determine Strategic Ends",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0074",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0074.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--70717452-f7e3-4ce8-956f-39a4d34c5cfb",
+            "name": "Facilitate State Propaganda",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--d696b89b-9686-42ff-b3c4-5a4d5ecaa17a",
+            "name": "Degrade Adversary",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0066",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0066.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--5414f74d-0b10-4562-ad9d-e5e1093e255a",
+            "name": "Dismiss",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0075",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0075.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--9b66eaf5-5b03-46b8-b076-cf1da3593745",
+            "name": "Discredit Credible Sources",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0075.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0075.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--1a85cb33-f7cc-49d9-a23f-4b7ce82a2146",
+            "name": "Distort",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0076",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0076.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--9e80abf9-0991-47c3-982c-b33e66640d10",
+            "name": "Distract",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0077",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0077.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--8ad58740-d5c1-40bb-9091-f98adfe8d89f",
+            "name": "Dismay",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0078",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0078.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--1d48fe65-5062-4262-b9e2-890aca1da132",
+            "name": "Divide",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0079",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0079.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--03692306-7b8e-4b5a-991f-23c91eeed4c5",
+            "name": "Segment Audiences",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0072",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0072.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--77574742-25a0-4375-a2c8-d5b54e1360aa",
+            "name": "Geographic Segmentation",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0072.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0072.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--694bafc2-bd74-40c9-89f2-2ad033f079f4",
+            "name": "Demographic Segmentation",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0072.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0072.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--1d917530-027d-4f82-b380-404c320dc783",
+            "name": "Economic Segmentation",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0072.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0072.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--3fd63a63-f597-40e5-9f6e-0aab00d4dc14",
+            "name": "Psychographic Segmentation",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0072.004",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0072.004.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--a468ff54-27eb-4e6d-b709-a9830017df86",
+            "name": "Political Segmentation",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0072.005",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0072.005.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--8289a941-c379-4628-916a-2ddc12f4e531",
+            "name": "Map Target Audience Information Environment",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0080",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0080.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--9ec25bd4-7dcd-4bbf-9e2f-6170af84e166",
+            "name": "Monitor Social Media Analytics",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0080.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0080.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--2cb5fe24-da3f-4cc7-aa76-6e3d38c537a1",
+            "name": "Evaluate Media Surveys",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0080.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0080.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--5a279d23-6ba2-425c-bf72-20c6411ca5a7",
+            "name": "Identify Trending Topics/Hashtags",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0080.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0080.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--45ab5d9e-88ee-494c-971b-6e4babf1dc34",
+            "name": "Conduct Web Traffic Analysis",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0080.004",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0080.004.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--c729368d-246a-47eb-8e4b-ab5b0a3510ec",
+            "name": "Assess Degree/Type of Media Access",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0080.005",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0080.005.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--41062c4b-a462-419a-bad9-7f3f720f090b",
+            "name": "Identify Social and Technical Vulnerabilities",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0081",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0081.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--45d10a80-a2f7-4626-ae2c-dae8cf144157",
+            "name": "Find Echo Chambers",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0081.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0081.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--55ff2ec4-8d1b-49f8-b774-d5996bc33648",
+            "name": "Identify Data Voids",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0081.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0081.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--8ecbc28c-36e9-4d9a-8578-b9e20552d732",
+            "name": "Identify Existing Prejudices",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0081.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0081.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--d13ff5af-16fd-4b32-8e14-f2e0980c15fb",
+            "name": "Identify Existing Fissures",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0081.004",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0081.004.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--625fe1a6-ee9d-45c8-9912-9e9f6e87dc85",
+            "name": "Identify Existing Conspiracy Narratives/Suspicions",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0081.005",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0081.005.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--594993b4-86a3-455b-af59-61f167d7fd93",
+            "name": "Identify Wedge Issues",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0081.006",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0081.006.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--7d69d231-78a6-4a98-a715-c0edd9adafce",
+            "name": "Identify Target Audience Adversaries",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0081.007",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0081.007.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--bb8da71f-108a-4c46-a1ef-d24ef1c8a661",
+            "name": "Identify Media System Vulnerabilities",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0081.008",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0081.008.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--9cf02828-bd4c-4b04-a9f0-bb67ec3b0493",
+            "name": "Leverage Existing Narratives",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--75a5c211-2590-498c-ad3a-129c912d5cd2",
+            "name": "Develop Competing Narratives",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0004",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0004.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--ea788455-90c6-4f47-97b1-862d30ef7d12",
+            "name": "Leverage Conspiracy Theory Narratives",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0022",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0022.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--b4ed63e5-e8db-4057-989b-3ff5ad8c000c",
+            "name": "Amplify Existing Conspiracy Theory Narratives",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0022.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0022.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--eb63894c-aad1-47f0-98ee-0fa5e07ed3f3",
+            "name": "Develop Original Conspiracy Theory Narratives",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0022.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0022.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--328ce801-be1a-4596-9961-008e1d9b85f7",
+            "name": "Demand insurmountable proof",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0040",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0040.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--b2a7561a-28ad-426c-a249-f415b5f11cee",
+            "name": "Respond to Breaking News Event or Active Crisis",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0068",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0068.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--14bec5aa-0823-4dde-9223-ec49a1cea65e",
+            "name": "Develop New Narratives",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0082",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0082.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--c254c765-c83d-4ae3-880e-7a253ef02d37",
+            "name": "Integrate Target Audience Vulnerabilities into Narrative",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0083",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0083.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--e0acfceb-4541-438f-ba33-734f9a666c7d",
+            "name": "Create hashtags and search artifacts",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0015",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0015.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--09d17df9-9bb5-4d64-ba5c-8ae47814bd4c",
+            "name": "Generate information pollution",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0019",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0019.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--dd9f940d-3970-45b2-8549-12e321567657",
+            "name": "Create fake research",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0019.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0019.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--348c10cd-e24e-409e-a6eb-983f85c1e590",
+            "name": "Hijack Hashtags",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0019.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0019.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--45dae307-ba74-4038-90ef-2282a32e38b9",
+            "name": "Distort facts",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0023",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0023.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--032f24c1-bc1d-457a-8f43-6c5fc416f733",
+            "name": "Reframe Context",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0023.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0023.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--84e0fdf7-3bba-4e66-a575-6a32a7f8eca6",
+            "name": "Edit Open-Source Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0023.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0023.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--9636ae57-0b93-41a0-8323-85109ee34877",
+            "name": "Reuse Existing Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0084",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0084.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--4cd719a9-e817-4acc-9581-6b6a60e42f35",
+            "name": "Use Copypasta",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0084.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0084.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--a3fe7752-dbfa-4918-912f-c492c8593c68",
+            "name": "Plagiarise Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0084.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0084.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--a3fe7752-dbfa-4918-912f-c492c8593c68",
+            "name": "Plagiarise Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0084.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0084.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--7475b7e6-1095-4ae1-a995-10ab1a6c838a",
+            "name": "Deceptively Labeled or Translated",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0084.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0084.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--e27cf6aa-69bc-434b-ac68-b0164d0b3421",
+            "name": "Appropriate Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0084.004",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0084.004.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--8ea2fcce-e27e-4019-a773-70f3dddfab34",
+            "name": "Develop Text-based Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0085",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0085.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--17cba995-a8ab-4aa0-85fe-2b87d38a8f03",
+            "name": "Develop AI-Generated Text",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0085.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0085.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--6956e73b-cb55-4c0a-8cb0-a26e8d5bb9db",
+            "name": "Develop False or Altered Documents",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0085.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0085.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--330de45e-8e37-4b57-95e4-fa75580b36a8",
+            "name": "Develop Inauthentic News Articles",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0085.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0085.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--5f8a5d7e-fc17-48f2-a6fa-38fcf7843bdf",
+            "name": "Develop Image-based Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0086",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0086.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--a60b4d87-cca8-4e17-a51c-f9c2af96aef4",
+            "name": "Develop Memes",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0086",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0086.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--7b6c328e-b050-4d76-8e11-ff3b3fe7dea3",
+            "name": "Develop AI-Generated Images (Deepfakes)",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0086.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0086.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--e4ad5ad8-f52d-48a0-8fce-33157f885a3e",
+            "name": "Deceptively Edit Images (Cheap fakes)",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0086.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0086.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--58b169c1-7e9a-4300-a98f-eb7baee8967f",
+            "name": "Aggregate Information into Evidence Collages",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0086.004",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0086.004.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--ce4a9eee-7437-43ce-ac86-c1921f5c01a7",
+            "name": "Develop Video-based Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0087",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0087.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--c4e7d976-071a-4973-833e-3badef32b8c5",
+            "name": "Develop AI-Generated Videos (Deepfakes)",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0087.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0087.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--57f82c4a-4db0-47f4-b4a2-03cd2792b6dc",
+            "name": "Deceptively Edit Video (Cheap fakes)",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0087.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0087.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--5b6aaad5-7166-4321-ae82-b9300a2ddad7",
+            "name": "Develop Audio-based Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0088",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0088.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--e60f54a3-9972-43b8-8359-ee21d781acae",
+            "name": "Develop AI-Generated Audio (Deepfakes)",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0088.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0088.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--779fe6e8-44ee-4f36-ab93-9daa867001d4",
+            "name": "Deceptively Edit Audio (Cheap fakes)",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0088.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0088.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--8c7832cb-8877-4f54-8e05-7e6df9a3d2b4",
+            "name": "Obtain Private Documents",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0089",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0089.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--ec8424e6-c7de-4543-b943-f0c4cc9ac63d",
+            "name": "Obtain Authentic Documents",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0089.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0089.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--bb36f231-2483-4c97-bd34-be573b9437ba",
+            "name": "Create Inauthentic Documents",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0089.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0089.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--3845d1f0-db88-41bb-95bf-8741ff9e72ea",
+            "name": "Alter Authentic Documents",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0089.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0089.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--d1ad0738-1f52-4fab-b0d1-640b551d7f6a",
+            "name": "Create Inauthentic Social Media Pages and Groups",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0007",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0007.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--bacbdfd3-f8c2-4126-a9f3-1b75576fa5e7",
+            "name": "Cultivate ignorant agents",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0010",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0010.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--95e3e261-2f42-4ff0-a1f9-4eb2c5998284",
+            "name": "Create inauthentic websites",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0013",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0013.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--21fc458a-ea4d-41bb-9442-aac7ddd24794",
+            "name": "Prepare fundraising campaigns",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0014",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0014.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--3bc92e69-67e4-405a-a6fb-a2d742395c45",
+            "name": "Raise funds from malign actors",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0014.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0014.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--e0b7c795-eae2-4494-a3c9-52bc68c6df06",
+            "name": "Raise funds from ignorant agents",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0014.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0014.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--b3bb61ca-5472-42b0-807e-bd8657fc05b2",
+            "name": "Prepare Physical Broadcast Capabilities",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0065",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0065.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--6f020d80-d267-4e2a-8cd0-6d0dabe84f3a",
+            "name": "Create Inauthentic Accounts",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0090",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0090.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--283453fd-36c5-4d66-b24d-f29ea35fa8a1",
+            "name": "Create Anonymous Accounts",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0090.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0090.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--db93e285-c516-40b0-bb5a-36bbaf5c08b9",
+            "name": "Create Cyborg Accounts",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0090.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0090.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--b2695cde-5f12-4e6a-b55a-e31220cb4bd7",
+            "name": "Create Bot Accounts",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0090.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0090.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--81abb4fa-705e-430f-ba54-34bf7bd467f7",
+            "name": "Create Sockpuppet Accounts",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0090.004",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0090.004.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--9a4a16c5-a671-4469-a854-ef45cb0e38ab",
+            "name": "Recruit malign actors",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0091",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0091.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--58643f4a-7699-4cd7-aafa-76a3e6e09e99",
+            "name": "Recruit Contractors",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0091.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0091.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--fe5cf0f2-3792-4cab-b546-a9af7a5aa319",
+            "name": "Recruit Partisans",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0091.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0091.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--ef3dcdcd-bd97-48e0-9d15-3e482a72c979",
+            "name": "Enlist Troll Accounts",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0091.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0091.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--c4213e65-a7cc-42a5-a3a7-2d8040258625",
+            "name": "Build Network",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0092",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0092.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--47fb2b79-fab3-421f-b989-47ee312f727d",
+            "name": "Create Organisations",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0092.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0092.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--37a192dd-8b33-482e-ba7a-b5a7b4f704b9",
+            "name": "Use Follow Trains",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0092.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0092.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--abb6518d-50fe-4428-9bca-a6e3c6ed4de4",
+            "name": "Create Community or Sub-group",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0092.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0092.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--c1182f49-4318-486f-81be-d44b99300343",
+            "name": "Acquire/Recruit Network",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0093",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0093.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--d522f417-ba0e-4e2d-ae96-df2c1fd607e6",
+            "name": "Fund Proxies",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0093.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0093.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--c7017017-4965-4dad-a970-e748b7080a19",
+            "name": "Acquire Botnets",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0093.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0093.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--adaaa726-50fe-47e2-b92d-de0d65c9250c",
+            "name": "Infiltrate Existing Networks",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0094",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0094.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--4cb308a9-073c-49d3-81ed-894cf9b95acc",
+            "name": "Identify susceptible targets in networks",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0094.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0094.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--8f545c7e-f2ba-4541-9004-dbe50fcc0b0f",
+            "name": "Utilise Butterfly Attacks",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0094.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0094.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--444c403e-a73f-4b78-9ffd-556f1dd29039",
+            "name": "Develop Owned Media Assets",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0095",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0095.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--091f481d-b32b-4e5c-9626-b14a6ef02df7",
+            "name": "Leverage Content Farms",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0096",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0096.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--3875e864-64d8-4ceb-8aa2-ef6e79224a85",
+            "name": "Create Content Farms",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0096.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0096.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--64bcccb9-4d10-4eed-8c49-8816ecfd78a3",
+            "name": "Outsource Content Creation to External Organisations",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0096.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0096.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--7981d39a-01be-46f6-b9f9-507d0c03e919",
+            "name": "Create fake experts",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0009",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0009.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--ec740173-f964-47cc-b849-06a1b134ee4f",
+            "name": "Utilise Academic/Pseudoscientific Justifications",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0009.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0009.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--4d86424a-26a1-4d9f-bc32-619620a18a8d",
+            "name": "Compromise legitimate accounts",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0011",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0011.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--90b7e29e-1b62-485e-88b0-a4052cabafa4",
+            "name": "Create personas",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0097",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0097.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--8f3f1d6f-beda-4f20-b1a7-2d087ae453f7",
+            "name": "Backstop personas",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0097.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0097.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--6db47704-ba87-402d-933a-de90f5aa8965",
+            "name": "Establish Inauthentic News Sites",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0098",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0098.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--e0f07568-5a2b-429d-94b9-b1ff3c17adea",
+            "name": "Create Inauthentic News Sites",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0098.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0098.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--2d9a40e8-fbb5-40c7-b23e-61d5d92b5321",
+            "name": "Leverage Existing Inauthentic News Sites",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0098.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0098.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--3ae4fb28-4864-468d-8085-cb8035cbb272",
+            "name": "Prepare Assets Impersonating Legitimate Entities",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0099",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0099.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--e5c15a9f-2944-4370-9091-a9f61fdbb0ce",
+            "name": "Astroturfing",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0099.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0099.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--9b3efc53-3a9e-45e7-8a26-dd2c4a305fd2",
+            "name": "Spoof/parody account/site",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0099.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0099.002.md",
+            "deprecated": false 
+        }, 
+        {
+            "stixId": "attack-pattern--283333f5-e161-4195-9070-5a7c22505adf",
+            "name": "Co-opt Trusted Sources",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0100",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0100.md",
+            "deprecated": false 
+        }, 
+        {
+            "stixId": "attack-pattern--a50d7269-9365-46f0-ba81-27964e422faa",
+            "name": "Co-Opt Trusted Individuals",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0100.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0100.001.md",
+            "deprecated": false 
+        }, 
+        {
+            "stixId": "attack-pattern--b43dbee2-e1e2-40e5-bea1-45630d55d30b",
+            "name": "Co-Opt Grassroots Groups",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0100.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0100.002.md",
+            "deprecated": false 
+        }, 
+        {
+            "stixId": "attack-pattern--9b081fd3-0714-483e-bd7b-a30defc85cd2",
+            "name": "Co-opt Influencers",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0100.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0100.003.md",
+            "deprecated": false 
+        }, 
+        {
+            "stixId": "attack-pattern--34cda40c-8d27-48a0-b27c-c953b75c453d",
+            "name": "Create Clickbait",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0016",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0016.md",
+            "deprecated": false 
+        }, 
+        {
+            "stixId": "attack-pattern--eef34262-0822-4727-83f5-2e608babc396",
+            "name": "Purchase Targeted Advertisements",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0018",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0018.md",
+            "deprecated": false 
+        }, 
+        {
+            "stixId": "attack-pattern--11352e9a-a52b-4ade-ad4f-ec64a15fa1d5",
+            "name": "Create Localised Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0101",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0101.md",
+            "deprecated": false 
+        }, 
+        {
+            "stixId": "attack-pattern--4a1d1dad-6784-42be-a7cd-1653cf8f34cc",
+            "name": "Leverage Echo Chambers/Filter Bubbles",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0102",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0102.md",
+            "deprecated": false 
+        }, 
+        {
+            "stixId": "attack-pattern--39ceaac8-e5f8-49be-95cf-0cbad07dfe72",
+            "name": "Use existing Echo Chambers/Filter Bubbles",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0102.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0102.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--bb25b4aa-9223-40ea-a28a-0dd675e91e46",
+            "name": "Create Echo Chambers/Filter Bubbles",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0102.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0102.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--40e784b7-3850-4115-b90c-a39e155bbe2c",
+            "name": "Exploit Data Voids",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0102.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0102.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--77cb282d-d6e6-4d86-87bf-08a2483bdbb6",
+            "name": "Online polls",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0029",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0029.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--23fc4de3-6f2c-4080-b8ed-13e996b1a4b9",
+            "name": "Chat apps",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0043",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0043.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--36f4dc58-e164-4819-83f8-52875377ff16",
+            "name": "Use Encrypted Chat Apps",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0043.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0043.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--2d540add-b708-402a-93ff-f5aa50d30eb9",
+            "name": "Use Unencrypted Chats Apps",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0043.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0043.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--0ec5ae10-b99b-4d5a-a7e9-7b7c3533e8c9",
+            "name": "Livestream",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0103",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0103.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--00a91e2d-2e09-4e94-bae6-cef6102eae99",
+            "name": "Video Livestream",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0103.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0103.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--6d75e3ac-e923-4815-8e9b-3e6af9e1baa0",
+            "name": "Audio Livestream",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0103.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0103.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--78a2af04-ac4a-430b-b233-6223715a76f5",
+            "name": "Social Networks",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0104",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0104.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--404f0dd5-81d8-4d96-ad36-875a58c27271",
+            "name": "Mainstream Social Networks",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0104.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0104.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--7f338181-2e4b-435b-a190-7044f3867aa3",
+            "name": "Dating Apps",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0104.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0104.002.md",
+            "deprecated": false 
+        }, 
+        {
+            "stixId": "attack-pattern--0461a925-3bb7-466c-a7ae-40aee015f403",
+            "name": "Private/Closed Social Networks",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0104.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0104.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--a24e779c-0f44-493b-862d-00693bf34ca4",
+            "name": "Interest-Based Networks",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0104.004",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0104.004.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--62036130-6083-43e3-b1e0-8ab0822bedda",
+            "name": "Use hashtags",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0104.005",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0104.005.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--35d89673-deef-482e-b30d-bb6883e47b12",
+            "name": "Create dedicated hashtag",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0104.006",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0104.006.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--6e525f48-d8d6-4484-8838-208eb00bd2a8",
+            "name": "Media Sharing Networks",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0105",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0105.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--78ff99d8-dce8-4f4e-9dc2-3f37f154a39d",
+            "name": "Photo Sharing",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0105.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0105.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--1d8c14ac-9be0-4835-b379-45549267e8f8",
+            "name": "Video Sharing",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0105.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0105.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--c26749da-f15d-48d7-ac1f-e2a2a49b9930",
+            "name": "Audio sharing",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0105.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0105.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--9b6b3dea-54ac-4e00-bd92-380555205afe",
+            "name": "Discussion Forums",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0106",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0106.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--8432d382-0ce8-4507-97ea-95be10de3488",
+            "name": "Anonymous Message Boards",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0106.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0106.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--b69275ef-ba3d-409f-a857-40d4d1870dca",
+            "name": "Bookmarking and Content Curation",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0107",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0107.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--d4e35ba1-f83d-41b4-a862-caabb634cc3e",
+            "name": "Blogging and Publishing Networks",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0108",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0108.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--da4ae172-c8c8-4eb1-bc03-c5198624c8a2",
+            "name": "Consumer Review Networks",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0109",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0109.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--d4813d4a-2afe-4c0e-8ddb-b21973bb283a",
+            "name": "Formal Diplomatic Channels",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0110",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0110.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--314ecce1-6d89-4304-a149-1c3d8fddaf9e",
+            "name": "Traditional Media",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0111",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0111.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--db9eafc0-261b-48d0-97a2-1c92dcb4026a",
+            "name": "TV",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0111.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0111.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--eb66afed-6c29-4947-a422-c380c5caeda5",
+            "name": "Newspaper",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0111.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0111.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--27061558-ebf9-402b-b8e2-0c7c9d86aea5",
+            "name": "Radio",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0111.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0111.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--c54dd9c4-5b7b-47a9-bb40-e63967b2ec33",
+            "name": "Email",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0112",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0112.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--ea0d5988-af73-4b09-8040-7bb2fbadaa3c",
+            "name": "Trial content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0020",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0020.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--5d4cafe2-42cc-4c41-8ce7-41256e1383f7",
+            "name": "Bait legitimate influencers",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0039",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0039.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--bd1295e0-67b2-419d-b2b4-a832552dbcc6",
+            "name": "Seed Kernel of truth",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0042",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0042.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--6b23206e-6a5a-4173-ab1a-17e6cc9a9d2d",
+            "name": "Seed distortions",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0044",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0044.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--0d8138a8-8690-491d-97b5-a330af054b39",
+            "name": "Use fake experts",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0045",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0045.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--50f92bc8-f6ad-4267-bd00-f4c572370a72",
+            "name": "Use Search Engine Optimisation",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0046",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0046.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--245d117b-2700-462e-97d4-be9b4b3745c4",
+            "name": "Employ Commercial Analytic Firms",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0113",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0113.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--026571cc-66db-42fb-9de3-790e1e7f243d",
+            "name": "Deliver Ads",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0114",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0114.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--35444e68-bb94-44ad-aecf-fff893f3d0ca",
+            "name": "Social media",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0114.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0114.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--8f83d6b8-01f4-406c-a3da-48a040e46139",
+            "name": "Traditional Media",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0114.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0114.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--1997947a-7e08-4ea9-802c-85391d561266",
+            "name": "Post Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0115",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0115.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--9a5261b8-5051-47ed-a4f6-bdbb7b6edcb4",
+            "name": "Share Memes",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0115.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0115.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--fb6f8352-c368-49a3-b7d4-f1ee5a3fb370",
+            "name": "Post Violative Content to Provoke Takedown and Backlash",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0115.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0115.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--5daa2f8a-2460-4cdd-ae55-b70f439a9f51",
+            "name": "One-Way Direct Posting",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0115.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0115.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--318f2a34-07b6-4c4b-9bb0-58f5bca681fc",
+            "name": "Comment or Reply on Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0116",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0116.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--5251f6d0-6820-4617-afef-a0d8acafd3c1",
+            "name": "Post inauthentic social media comment",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0116.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0116.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--72df7e55-dc60-4a7e-9928-ed41ac0e1581",
+            "name": "Attract Traditional Media",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0117",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0117.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--0c765d19-99b2-4703-af48-e20a677c4bfc",
+            "name": "Flooding the Information Space",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0049",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0049.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--1c13465b-8b75-4b7d-a763-fe5b1d091635",
+            "name": "Trolls amplify and manipulate",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0049.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0049.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--bfce790b-dfd6-46ca-8fab-c2d72f21bba2",
+            "name": "Hijack existing hashtag",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0049.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0049.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--e6ab2793-a059-4354-bb60-045afb019833",
+            "name": "Bots Amplify via Automated Forwarding and Reposting",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0049.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0049.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--4282febe-c8a6-46da-863c-f19081615d80",
+            "name": "Utilise Spamoflauge",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0049.004",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0049.004.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--ce5b400c-6f82-4095-936b-617857800da8",
+            "name": "Conduct Swarming",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0049.005",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0049.005.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--091a6351-aca8-4cc8-9062-cae98f600e69",
+            "name": "Conduct Keyword Squatting",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0049.006",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0049.006.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--cec91e97-76c8-4a1f-8397-a06939a558ef",
+            "name": "Inauthentic Sites Amplify News and Narratives",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0049.007",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0049.007.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--836e9eef-b446-4f68-805f-0f10116d6e7f",
+            "name": "Amplify Existing Narrative",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0118",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0118.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--872f0dc3-202e-4e9a-a4fc-0457252aecae",
+            "name": "Cross-Posting",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0119",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0119.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--0d094dfb-61f9-42d3-a9cf-697fdcbee944",
+            "name": "Post Across Groups",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0119.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0119.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--03225a5c-f388-4453-a53c-f10be49bbcfe",
+            "name": "Post Across Platform",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0119.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0119.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--29dd92fd-fb77-4565-b58a-74795144c9a9",
+            "name": "Post Across Disciplines",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0119.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0119.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--5e7541d8-2b43-4443-89d9-7362ca78944c",
+            "name": "Incentivize Sharing",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0120",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0120.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--5bbea132-9da6-42f7-93e9-71f0a9cf311d",
+            "name": "Use Affiliate Marketing Programmes",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0120.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0120.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--ddc4a9e6-a371-4f16-91b6-c71139a154ce",
+            "name": "Use Contests and Prizes",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0120.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0120.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--7e3a06ee-c109-4901-8720-69c46fe04a76",
+            "name": "Manipulate Platform Algorithm",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0121",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0121.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--89b88c22-0686-4d28-9c2b-e0c6ac31a4ab",
+            "name": "Bypass Content Blocking",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0121.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0121.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--690761b6-8afd-4dd5-954e-174de362d1b0",
+            "name": "Direct Users to Alternative Platforms",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0122",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0122.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--90ca8c39-a644-4007-b3d6-68fabc90b531",
+            "name": "Censor social media as a political force",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0047",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0047.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--bc2a6754-44d0-4fe3-8461-e3a4af895835",
+            "name": "Harass",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0048",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0048.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--7d5ba27c-12c7-4a30-8624-e1ea6670f0f8",
+            "name": "Boycott/\"Cancel\" Opponents",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0048.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0048.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--e47ae747-d83d-433d-a69a-f6d0970fed5e",
+            "name": "Harass People Based on Identities",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0048.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0048.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--127c5166-e619-42d7-a0f7-0cf0595bcdeb",
+            "name": "Threaten to Dox",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0048.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0048.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--5bc895e8-eb26-43ec-8469-ab665092970d",
+            "name": "Dox",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0048.004",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0048.004.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--14ea9a49-0546-4fe9-be44-f158be5881e9",
+            "name": "Control Information Environment through Offensive Cyberspace Operations",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0123",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0123.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--d65af8b6-91ce-490e-8978-014ff995a2ac",
+            "name": "Delete Opposing Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0123.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0123.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--9b667c6e-5bc3-4c1e-b114-6f679a662b5d",
+            "name": "Block Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0123.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0123.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--556fa171-ffd0-4787-84fa-171b99c703b5",
+            "name": "Destroy Information Generation Capabilities",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0123.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0123.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--3621d01e-eb49-42d7-b646-6427a5693291",
+            "name": "Conduct Server Redirect",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0123.004",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0123.004.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--e22e3d7d-40fc-4a5e-8d6c-d528b9f78e8e",
+            "name": "Suppress Opposition",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0124",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0124.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--c31542d3-d9c4-4fe4-ac5d-47632225a425",
+            "name": "Report Non-Violative Opposing Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0124.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0124.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--651a5188-f38a-42be-a253-d1b90cbd28e1",
+            "name": "Goad People into Harmful Action (Stop Hitting Yourself)",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0124.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0124.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--d615efdc-7296-4254-90f5-99d2986d97fa",
+            "name": "Exploit Platform TOS/Content Moderation",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0124.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0124.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--fd04fba0-0e20-40f9-868d-e8effcf6dab6",
+            "name": "Platform Filtering",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0125",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0125.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--61df6490-ca2c-41b7-a251-ded790a03a71",
+            "name": "Conduct fundraising",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0017",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0017.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--0102376a-e896-4191-b3fb-e58188301822",
+            "name": "Organise Events",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0057",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0057.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--7b32abce-e101-4dc3-98db-30b79c0c8397",
+            "name": "Pay for Physical Action",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0057.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0057.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--f601eb03-79d0-4c00-b07d-4b4647c37efd",
+            "name": "Conduct Symbolic Action",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0057.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0057.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--ddc9d571-88a9-4246-bbbf-075bfed721f8",
+            "name": "Sell Merchandise",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0061",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0061.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--0a77a75a-09e7-44bf-927c-5e66a138862b",
+            "name": "Encourage Attendance at Events",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0126",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0126.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--1f7181dc-07e7-40a7-9894-8132b8390ba4",
+            "name": "Call to action to attend",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0126.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0126.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--394089a7-cd71-4e16-aef9-d7b885d421f1",
+            "name": "Facilitate logistics or support for attendance",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0126.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0126.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--56a35df8-3bda-4ee3-8be0-23b20b69fe63",
+            "name": "Physical Violence",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0127",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0127.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--570ba169-9d18-41ac-89ae-46b1376cdb82",
+            "name": "Conduct Physical Violence",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0127.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0127.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--2b297e7b-51a7-4cfc-80da-fbc21c789a9e",
+            "name": "Encourage Physical Violence",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0127.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0127.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--d1f55d22-f487-48ec-a810-a9f74220c02e",
+            "name": "Play the long game",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0059",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0059.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--ad410829-2fb3-490b-b470-f5f859d45942",
+            "name": "Continue to Amplify",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0060",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0060.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--baf9f97d-65f3-4290-a3c2-9ac624d64ad6",
+            "name": "Conceal People",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0128",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0128.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--78cf4cd6-a8a0-408f-a5e8-d6f1491aace8",
+            "name": "Use Pseudonyms",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0128.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0128.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--20569b52-59da-4b87-9b04-a306f3c148ae",
+            "name": "Conceal Network Identity",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0128.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0128.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--9affd892-2479-4843-99d1-1e1a9f7f1020",
+            "name": "Distance Reputable Individuals from Operation",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0128.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0128.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--6b495bb5-d2ab-4da7-9530-a1aadd488803",
+            "name": "Launder Accounts",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0128.004",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0128.004.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--5bca3084-f5b0-48a8-934c-7f2c03bfd2c3",
+            "name": "Change Names of Accounts",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0128.005",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0128.005.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--08db3527-8fc9-4bf6-bb49-e5a5249cc051",
+            "name": "Conceal Operational Activity",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0129",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--eb67513e-b6e8-42e1-a95b-197f64c21588",
+            "name": "Conceal Network Identity",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0129.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--eb037d2a-82a7-4bcb-bffd-e7791de21d1c",
+            "name": "Generate Content Unrelated to Narrative",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0129.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--3437993c-c521-4145-a2d8-b860399876b0",
+            "name": "Break Association with Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0129.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--a09fbbeb-58ef-4e7a-8183-5eaa668200c9",
+            "name": "Delete URLs",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0129.004",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.004.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--e7b62982-106f-4234-9545-9466c687d1b5",
+            "name": "Coordinate on encrypted/closed networks",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0129.005",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.005.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--da5fb984-37a6-4152-a078-e2af40c0844f",
+            "name": "Deny involvement",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0129.006",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.006.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--deb9a225-0803-4a1f-b37b-3a10c3e7ca79",
+            "name": "Delete Accounts/Account Activity",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0129.007",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.007.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--32ddaf21-ebef-4270-9416-d9ef74bd23f6",
+            "name": "Redirect URLs",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0129.008",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.008.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--ea762d7a-8852-4d91-b44f-4754aa079313",
+            "name": "Remove Post Origins",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0129.009",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.009.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--dd415f9d-ce3a-44c6-9237-f8ceeb52a6a3",
+            "name": "Misattribute Activity",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0129.010",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0129.010.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--82f29899-fd06-43ef-b4d6-fc511d0fa425",
+            "name": "Conceal Infrastructure",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0130",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0130.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--a09594d3-c930-451a-8eb6-7e2d748618bb",
+            "name": "Conceal Sponsorship",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0130.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0130.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--331a83bb-2e5b-4c49-9446-e78a8f25b4eb",
+            "name": "Utilise Bulletproof Hosting",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0130.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0130.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--b6644001-8597-4f9f-a2a4-8005c54e8a39",
+            "name": "Use Shell Organisations",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0130.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0130.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--c80ef7af-3f51-4be5-b42a-19d29ab40a53",
+            "name": "Use Cryptocurrency",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0130.004",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0130.004.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--8b991b67-9df8-42e7-b11a-5ed1bc41c5a5",
+            "name": "Obfuscate Payment",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0130.005",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0130.005.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--c73c3210-6414-46c8-9885-a3b3e405da56",
+            "name": "Exploit TOS/Content Moderation",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0131",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0131.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--ce1e088c-d061-490c-a13a-3cbe4216a86e",
+            "name": "Legacy web content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0131.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0131.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--67afaa3d-ffd7-4ad5-bcb0-e77962c084cf",
+            "name": "Post Borderline Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0131.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0131.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--c171dd41-42d0-45c2-806e-3cb518ba0357",
+            "name": "Measure Performance",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0132",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0132.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--83b4e2db-265f-4f88-9b35-26df05c561e9",
+            "name": "People Focused",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0132.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0132.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--5dc224b1-c69e-496d-91f7-e8ce4fd3f166",
+            "name": "Content Focused",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0132.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0132.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--c25ad637-cfa5-40c0-a23c-f741d8f4319e",
+            "name": "View Focused",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0132.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0132.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--bb9d5f3e-471f-411b-9901-baf03b848132",
+            "name": "Measure Effectiveness",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0133",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0133.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--a925711a-dbfb-41b1-bd81-70d41dbaa69c",
+            "name": "Behaviour changes",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0133.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0133.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--d2536dd3-53a5-4fc1-b508-1697cf0dafde",
+            "name": "Content",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0133.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0133.002.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--55ecf54e-0e46-4ea1-86de-ab473c94705f",
+            "name": "Awareness",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0133.003",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0133.003.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--7fdc6b19-0d37-43a9-8144-f0c180a13ed0",
+            "name": "Knowledge",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0133.004",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0133.004.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--1ae9162c-ea88-4123-9c3f-b651eff4a77c",
+            "name": "Action/attitude",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0133.005",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0133.005.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--6aa772c8-f51f-428e-a7e5-2d69dd8d4add",
+            "name": "Measure Effectiveness Indicators (or KPIs)",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0134",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0134.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--4c5e704a-acca-4bbd-8980-c915c0424ff8",
+            "name": "Message Reach",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0134.001",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0134.001.md",
+            "deprecated": false 
+        },
+        {
+            "stixId": "attack-pattern--4c5e704a-acca-4bbd-8980-c915c0424ff8",
+            "name": "Social media engagement",
+            "type": "technique",
+            "matrix": "DISARM Red",
+            "id": "T0134.002",
+            "url": "https://github.com/DISARMFoundation/DISARMframeworks/blob/main/generated_pages/techniques/T0134.002.md",
+            "deprecated": false 
         }
     ],
     "technique_recs": [
-        "T0073 (Determine Target Audiences)",
         "T0800 (Activate Firmware Update Mode)",
         "T0801 (Monitor Process State)",
         "T0802 (Automated Collection)",
@@ -11195,7 +13498,264 @@ export const intel = {
         "T1662 (Data Destruction)",
         "T1663 (Remote Access Software)",
         "T1664 (Exploitation for Initial Access)",
-        "T1665 (Hide Infrastructure)"
+        "T1665 (Hide Infrastructure)",
+        "T0073 (Determine Target Audiences)",
+"T0074 (Determine Strategic Ends)",
+"T0002 (Facilitate State Propaganda)",
+"T0066 (Degrade Adversary)",
+"T0075 (Dismiss)",
+"T0075.001 (Discredit Credible Sources)",
+"T0076 (Distort)",
+"T0077 (Distract)",
+"T0078 (Dismay)",
+"T0079 (Divide)",
+"T0072 (Segment Audiences)",
+"T0072.001 (Geographic Segmentation)",
+"T0072.002 (Demographic Segmentation)",
+"T0072.003 (Economic Segmentation)",
+"T0072.004 (Psychographic Segmentation)",
+"T0072.005 (Political Segmentation)",
+"T0080 (Map Target Audience Information Environment)",
+"T0080.001 (Monitor Social Media Analytics)",
+"T0080.002 (Evaluate Media Surveys)",
+"T0080.003 (Identify Trending Topics/Hashtags)",
+"T0080.004 (Conduct Web Traffic Analysis)",
+"T0080.005 (Assess Degree/Type of Media Access)",
+"T0081 (Identify Social and Technical Vulnerabilities)",
+"T0081.001 (Find Echo Chambers)",
+"T0081.002 (Identify Data Voids)",
+"T0081.003 (Identify Existing Prejudices)",
+"T0081.004 (Identify Existing Fissures)",
+"T0081.005 (Identify Existing Conspiracy Narratives/Suspicions)",
+"T0081.006 (Identify Wedge Issues)",
+"T0081.007 (Identify Target Audience Adversaries)",
+"T0081.008 (Identify Media System Vulnerabilities)",
+"T0003 (Leverage Existing Narratives)",
+"T0004 (Develop Competing Narratives)",
+"T0022 (Leverage Conspiracy Theory Narratives)",
+"T0022.001 (Amplify Existing Conspiracy Theory Narratives)",
+"T0022.002 (Develop Original Conspiracy Theory Narratives)",
+"T0040 (Demand insurmountable proof)",
+"T0068 (Respond to Breaking News Event or Active Crisis)",
+"T0082 (Develop New Narratives)",
+"T0083 (Integrate Target Audience Vulnerabilities into Narrative)",
+"T0015 (Create hashtags and search artifacts)",
+"T0019 (Generate information pollution)",
+"T0019.001 (Create fake research)",
+"T0019.002 (Hijack Hashtags)",
+"T0023 (Distort facts)",
+"T0023.001 (Reframe Context)",
+"T0023.002 (Edit Open-Source Content)",
+"T0084 (Reuse Existing Content)",
+"T0084.001 (Use Copypasta)",
+"T0084.002 (Plagiarise Content)",
+"T0084.003 (Deceptively Labeled or Translated)",
+"T0084.004 (Appropriate Content)",
+"T0085 (Develop Text-based Content)",
+"T0085.001 (Develop AI-Generated Text)",
+"T0085.002 (Develop False or Altered Documents)",
+"T0085.003 (Develop Inauthentic News Articles)",
+"T0086 (Develop Image-based Content)",
+"T0086.001 (Develop Memes)",
+"T0086.002 (Develop AI-Generated Images (Deepfakes))",
+"T0086.003 (Deceptively Edit Images (Cheap fakes))",
+"T0086.004 (Aggregate Information into Evidence Collages)",
+"T0087 (Develop Video-based Content)",
+"T0087.001 (Develop AI-Generated Videos (Deepfakes))",
+"T0087.002 (Deceptively Edit Video (Cheap fakes))",
+"T0088 (Develop Audio-based Content)",
+"T0088.001 (Develop AI-Generated Audio (Deepfakes))",
+"T0088.002 (Deceptively Edit Audio (Cheap fakes))",
+"T0089 (Obtain Private Documents)",
+"T0089.001 (Obtain Authentic Documents)",
+"T0089.002 (Create Inauthentic Documents)",
+"T0089.003 (Alter Authentic Documents)",
+"T0007 (Create Inauthentic Social Media Pages and Groups)",
+"T0010 (Cultivate ignorant agents)",
+"T0013 (Create inauthentic websites)",
+"T0014 (Prepare fundraising campaigns)",
+"T0014.001 (Raise funds from malign actors)",
+"T0014.002 (Raise funds from ignorant agents)",
+"T0065 (Prepare Physical Broadcast Capabilities)",
+"T0090 (Create Inauthentic Accounts)",
+"T0090.001 (Create Anonymous Accounts)",
+"T0090.002 (Create Cyborg Accounts)",
+"T0090.003 (Create Bot Accounts)",
+"T0090.004 (Create Sockpuppet Accounts)",
+"T0091 (Recruit malign actors)",
+"T0091.001 (Recruit Contractors)",
+"T0091.002 (Recruit Partisans)",
+"T0091.003 (Enlist Troll Accounts)",
+"T0092 (Build Network)",
+"T0092.001 (Create Organisations)",
+"T0092.002 (Use Follow Trains)",
+"T0092.003 (Create Community or Sub-group)",
+"T0093 (Acquire/Recruit Network)",
+"T0093.001 (Fund Proxies)",
+"T0093.002 (Acquire Botnets)",
+"T0094 (Infiltrate Existing Networks)",
+"T0094.001 (Identify susceptible targets in networks)",
+"T0094.002 (Utilise Butterfly Attacks)",
+"T0095 (Develop Owned Media Assets)",
+"T0096 (Leverage Content Farms)",
+"T0096.001 (Create Content Farms)",
+"T0096.002 (Outsource Content Creation to External Organisations)",
+"T0009 (Create fake experts)",
+"T0009.001 (Utilise Academic/Pseudoscientific Justifications)",
+"T0011 (Compromise legitimate accounts)",
+"T0097 (Create personas)",
+"T0097.001 (Backstop personas )",
+"T0098 (Establish Inauthentic News Sites)",
+"T0098.001 (Create Inauthentic News Sites)",
+"T0098.002 (Leverage Existing Inauthentic News Sites)",
+"T0099 (Prepare Assets Impersonating Legitimate Entities)",
+"T0099.001 (Astroturfing)",
+"T0099.002 (Spoof/parody account/site)",
+"T0100 (Co-opt Trusted Sources)",
+"T0100.001 (Co-Opt Trusted Individuals)",
+"T0100.002 (Co-Opt Grassroots Groups)",
+"T0100.003 (Co-opt Influencers)",
+"T0016 (Create Clickbait)",
+"T0018 (Purchase Targeted Advertisements)",
+"T0101 (Create Localised Content)",
+"T0102 (Leverage Echo Chambers/Filter Bubbles)",
+"T0102.001 (Use existing Echo Chambers/Filter Bubbles)",
+"T0102.002 (Create Echo Chambers/Filter Bubbles)",
+"T0102.003 (Exploit Data Voids)",
+"T0029 (Online polls)",
+"T0043 (Chat apps)",
+"T0043.001 (Use Encrypted Chat Apps)",
+"T0043.002 (Use Unencrypted Chats Apps)",
+"T0103 (Livestream)",
+"T0103.001 (Video Livestream)",
+"T0103.002 (Audio Livestream)",
+"T0104 (Social Networks)",
+"T0104.001 (Mainstream Social Networks)",
+"T0104.002 (Dating Apps)",
+"T0104.003 (Private/Closed Social Networks)",
+"T0104.004 (Interest-Based Networks)",
+"T0104.005 (Use hashtags)",
+"T0104.006 (Create dedicated hashtag)",
+"T0105 (Media Sharing Networks)",
+"T0105.001 (Photo Sharing)",
+"T0105.002 (Video Sharing)",
+"T0105.003 (Audio sharing)",
+"T0106 (Discussion Forums)",
+"T0106.001 (Anonymous Message Boards)",
+"T0107 (Bookmarking and Content Curation)",
+"T0108 (Blogging and Publishing Networks)",
+"T0109 (Consumer Review Networks)",
+"T0110 (Formal Diplomatic Channels)",
+"T0111 (Traditional Media)",
+"T0111.001 (TV)",
+"T0111.002 (Newspaper)",
+"T0111.003 (Radio)",
+"T0112 (Email)",
+"T0020 (Trial content)",
+"T0039 (Bait legitimate influencers)",
+"T0042 (Seed Kernel of truth)",
+"T0044 (Seed distortions)",
+"T0045 (Use fake experts)",
+"T0046 (Use Search Engine Optimisation)",
+"T0113 (Employ Commercial Analytic Firms)",
+"T0114 (Deliver Ads)",
+"T0114.001 (Social media)",
+"T0114.002 (Traditional Media)",
+"T0115 (Post Content)",
+"T0115.001 (Share Memes)",
+"T0115.002 (Post Violative Content to Provoke Takedown and Backlash)",
+"T0115.003 (One-Way Direct Posting)",
+"T0116 (Comment or Reply on Content)",
+"T0116.001 (Post inauthentic social media comment)",
+"T0117 (Attract Traditional Media)",
+"T0049 (Flooding the Information Space)",
+"T0049.001 (Trolls amplify and manipulate)",
+"T0049.002 (Hijack existing hashtag)",
+"T0049.003 (Bots Amplify via Automated Forwarding and Reposting)",
+"T0049.004 (Utilise Spamoflauge)",
+"T0049.005 (Conduct Swarming)",
+"T0049.006 (Conduct Keyword Squatting)",
+"T0049.007 (Inauthentic Sites Amplify News and Narratives)",
+"T0118 (Amplify Existing Narrative)",
+"T0119 (Cross-Posting)",
+"T0119.001 (Post Across Groups)",
+"T0119.002 (Post Across Platform)",
+"T0119.003 (Post Across Disciplines)",
+"T0120 (Incentivize Sharing)",
+"T0120.001 (Use Affiliate Marketing Programmes)",
+"T0120.002 (Use Contests and Prizes)",
+"T0121 (Manipulate Platform Algorithm)",
+"T0121.001 (Bypass Content Blocking)",
+"T0122 (Direct Users to Alternative Platforms)",
+"T0047 (Censor social media as a political force)",
+"T0048 (Harass)",
+"T0048.001 (Boycott/\"Cancel\" Opponents)",
+"T0048.002 (Harass People Based on Identities)",
+"T0048.003 (Threaten to Dox)",
+"T0048.004 (Dox)",
+"T0123 (Control Information Environment through Offensive Cyberspace Operations)",
+"T0123.001 (Delete Opposing Content)",
+"T0123.002 (Block Content)",
+"T0123.003 (Destroy Information Generation Capabilities)",
+"T0123.004 (Conduct Server Redirect)",
+"T0124 (Suppress Opposition)",
+"T0124.001 (Report Non-Violative Opposing Content)",
+"T0124.002 (Goad People into Harmful Action (Stop Hitting Yourself))",
+"T0124.003 (Exploit Platform TOS/Content Moderation)",
+"T0125 (Platform Filtering)",
+"T0017 (Conduct fundraising)",
+"T0017.001 (Conduct Crowdfunding Campaigns)",
+"T0057 (Organise Events)",
+"T0057.001 (Pay for Physical Action)",
+"T0057.002 (Conduct Symbolic Action)",
+"T0061 (Sell Merchandise)",
+"T0126 (Encourage Attendance at Events)",
+"T0126.001 (Call to action to attend)",
+"T0126.002 (Facilitate logistics or support for attendance)",
+"T0127 (Physical Violence)",
+"T0127.001 (Conduct Physical Violence)",
+"T0127.002 (Encourage Physical Violence)",
+"T0059 (Play the long game)",
+"T0060 (Continue to Amplify)",
+"T0128 (Conceal People)",
+"T0128.001 (Use Pseudonyms)",
+"T0128.002 (Conceal Network Identity)",
+"T0128.003 (Distance Reputable Individuals from Operation)",
+"T0128.004 (Launder Accounts)",
+"T0128.005 (Change Names of Accounts)",
+"T0129 (Conceal Operational Activity)",
+"T0129.001 (Conceal Network Identity)",
+"T0129.002 (Generate Content Unrelated to Narrative)",
+"T0129.003 (Break Association with Content)",
+"T0129.004 (Delete URLs)",
+"T0129.005 (Coordinate on encrypted/closed networks)",
+"T0129.006 (Deny involvement)",
+"T0129.007 (Delete Accounts/Account Activity)",
+"T0129.008 (Redirect URLs)",
+"T0129.009 (Remove Post Origins)",
+"T0129.010 (Misattribute Activity)",
+"T0130 (Conceal Infrastructure)",
+"T0130.001 (Conceal Sponsorship)",
+"T0130.002 (Utilise Bulletproof Hosting)",
+"T0130.003 (Use Shell Organisations)",
+"T0130.004 (Use Cryptocurrency)",
+"T0130.005 (Obfuscate Payment)",
+"T0131 (Exploit TOS/Content Moderation)",
+"T0131.001 (Legacy web content)",
+"T0131.002 (Post Borderline Content)",
+"T0132 (Measure Performance)",
+"T0132.001 (People Focused)",
+"T0132.002 (Content Focused)",
+"T0132.003 (View Focused)",
+"T0133 (Measure Effectiveness)",
+"T0133.001 (Behaviour changes)",
+"T0133.002 (Content)",
+"T0133.003 (Awareness)",
+"T0133.004 (Knowledge)",
+"T0133.005 (Action/attitude)",
+"T0134 (Measure Effectiveness Indicators (or KPIs))",
+"T0134.001 (Message reach)",
+"T0134.002 (Social media engagement)"
     ]
 };
 
